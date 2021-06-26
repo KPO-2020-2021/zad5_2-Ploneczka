@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linuxmacka/obiektowe/zad5_2-Ploneczka/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+

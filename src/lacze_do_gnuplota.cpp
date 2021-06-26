@@ -12,7 +12,7 @@
 #pragma implementation
 #endif
 
-#include "lacze_do_gnuplota.hh"
+#include "lacze_do_gnuplota.h"
 
 using namespace std;
 
@@ -337,7 +337,6 @@ namespace PzG {
   char const *Sep = "";
   bool TrzebaRysowac = DopiszPlikiDoPoleceniaRysowania(Polecenie,&Sep);
   /*
-
   */
   TrzebaRysowac = DopiszRysowanieZPlikow(Polecenie,&Sep) || TrzebaRysowac;
 
